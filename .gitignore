@@ -2,3 +2,7 @@ openai_key.txt
 pdfs/
 env/
 data/
+
+lib/__pycache__/
+
+.ipynb_checkpoints/
