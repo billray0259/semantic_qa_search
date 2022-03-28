@@ -47,3 +47,24 @@ https://people.cs.umass.edu/~mcgregor/514S22/lecture24.pdf
 ## Things to know
 * Getting the document embeddings with ada costs about $0.45, getting them with curie costs about $3.50, and davincie costs about $35
 * Getting the query embeddings costs much less. So much less I'm not even sure how much it costs.
+
+
+
+Every Step I go through to setup
+Operating System: Ubuntu 18.04.5 LTS
+
+```
+git clone https://github.com/billray0259/semantic_qa_search.git
+cd semantic_qa_search
+python3 -m venv env
+source env/bin/activate
+pip3 install requirements.txt
+```
+This prompted several errors where pip could not find specific versions of some of the packages.
+Removed the version i.e. `MarkupSafe==2.1.0` -> `MarkupSafe` of the offending package and re-ran
+I had to repeat this several times
+
+After removing several version numbers I got an error `fitz.h: No such file or directory` while it tried to install PyMuPDF
+running `sudo apt-get install libmupdf-dev` as suggested by [this github issue](https://github.com/pymupdf/PyMuPDF/issues/78) changed the error to `ft2build.h: No such file or directory`
+
+
