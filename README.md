@@ -1,10 +1,6 @@
 # Usage Guide
 
-* Give this project a star
-
-## Ask me for the embeddings so you don't have to run the model yourself
-
-## If you want to run the OpenAI model yourself (and pay for it)
+## Using OpenAI embeddings API to calculate embeddings
 * get an OpenAI API key
 * make a folder in this directory called data
   * make a subfolder called cs514
