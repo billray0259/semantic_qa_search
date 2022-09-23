@@ -5,7 +5,7 @@
 * make a folder in this directory called data
   * make a subfolder called cs514
   * make a text file called urls.txt in data/cs514
-    * paste this into the text file:
+    * paste this into the text file:  NOTE: These links no longer point to PDFS, but this is the idea.
 ```
 https://people.cs.umass.edu/~mcgregor/514S22/lecture1.pdf
 https://people.cs.umass.edu/~mcgregor/514S22/lecture2.pdf
